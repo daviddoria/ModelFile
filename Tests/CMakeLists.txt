@@ -1,0 +1,7 @@
+ENABLE_TESTING()
+
+ADD_EXECUTABLE(Test Test.cpp)
+TARGET_LINK_LIBRARIES(Test MyLibs)
+ADD_TEST(Test Test)
+
+
