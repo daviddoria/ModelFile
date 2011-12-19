@@ -14,8 +14,6 @@
 #include <vgl/vgl_sphere_3d.h>
 #include <vgl/vgl_distance.h>
 
-#include <GL/glut.h>
-
 //VTK
 #include <vtkSmartPointer.h>
 #include <vtkPointData.h>
@@ -32,25 +30,15 @@
 #include <vtkFloatArray.h>
 #include <vtkPolyDataNormals.h>
 #include <vtkCubeSource.h>
-
-//OBJ
 #include <vtkOBJReader.h>
 #include <vtkOBJExporter.h>
-
-//PLY
 #include <vtkPLYReader.h>
 #include <vtkPLYWriter.h>
-
-//triangulation
 #include <vtkDelaunay2D.h>
 #include <vtkCellLocator.h>
-
-//VTP
 #include <vtkXMLPolyDataWriter.h>
 #include <vtkXMLPolyDataReader.h>
 #include <vtkPolyData.h>
-
-//VTU
 #include <vtkXMLUnstructuredGridWriter.h>
 #include <vtkXMLUnstructuredGridReader.h>
 #include <vtkUnstructuredGrid.h>
